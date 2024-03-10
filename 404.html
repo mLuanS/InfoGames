@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luan Games</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Luan Games</h1>
+      <nav>
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#secao1">PlayStation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#secao2">Xbox</a></li>
+          <li class="nav-item"><a class="nav-link" href="#secao3">Nintendo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="secao1" class="py-5">
+      <div class="container">
+        <h2>PlayStation</h2>
+        <p>O PlayStation é uma linha de consoles de videogame criada e desenvolvida pela Sony Interactive Entertainment.</p>
+      </div>
+    </section>
+
+    <section id="secao2" class="bg-light py-5">
+      <div class="container">
+        <h2>Xbox</h2>
+        <p>O Xbox é uma linha de consoles de videogame desenvolvida pela Microsoft. A série oferece consoles de mesa e consoles portáteis.</p>
+      </div>
+    </section>
+
+    <section id="secao3" class="py-5">
+      <div class="container">
+        <h2>Nintendo</h2>
+        <p>A Nintendo é uma das principais fabricantes de consoles de videogame do mundo. Seus consoles são conhecidos por sua inovação e jogos exclusivos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="ano-atual">2024</span> Luan Games. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById(2024).textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
